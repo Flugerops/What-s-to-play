@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "What-s-to-play"
+version = "0.1.0"
+description = ""
+authors = ["Bohdan Savin <bogdan07112009@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.4"
+SQLAlchemy = "^2.0.36"
+python-dotenv = "^1.0.1"
+Flask = "^3.0.3"
+WTForms = "^3.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
