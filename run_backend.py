@@ -13,4 +13,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-    run_asgi(app=app, port=8134)
+    run_asgi("backend:app", port=8134, reload=True)
